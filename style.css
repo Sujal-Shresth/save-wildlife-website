@@ -30,11 +30,18 @@ nav,
   background-color: black;
   height: 60px;
   /* Your code goes here */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .container {
   width: 500px;
   /* Your code goes here */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .button {
@@ -60,8 +67,6 @@ a {
 
 footer {
   background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/black-background.png);
-  background-size: 100% 100%;
-  width: 100%;
-  min-height: 100%;
-  padding: 10% 0%;
+  background-size: cover;
+  padding:10px;
 }
